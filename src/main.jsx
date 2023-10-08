@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Cabecera } from './moduls/app'
+import { Cabecera } from './components/app'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

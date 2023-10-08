@@ -1,0 +1,54 @@
+@font-face {
+    font-family: titulo;
+    src: url(../font/get_schwifty.ttf);
+}
+*{padding:0; margin:0;}
+
+
+.Cabecera{
+    position: relative;
+    background-color: #161630;
+    font-family: 'titulo';
+    color: #05b1cb;
+    text-align: center;
+    height: 16vh;
+}
+.logo-center{
+    height: 14vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo{
+    margin-top: 5px;
+    max-width: 100%;
+    width: 13vh;
+    z-index: 11;
+}
+
+.titulo-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:calc(0.8em + 0.8vw);
+    z-index: 11;
+}
+
+.titulo{
+    -webkit-text-stroke: 0.01px #aac76d;
+    z-index: 5;
+}
+
+.punto{
+    position: absolute;
+    background: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    left: 5px;
+    top: 40px;
+    z-index: 0;
+}
