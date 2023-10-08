@@ -16,7 +16,7 @@ export function Cabecera() {
                         </Grid>
                         <Grid item xs={10}>
                             <div className='titulo-box'>
-                            <h1 className='titulo'>Bienvenido a info de RaM</h1>
+                            <h1 className='titulo'>Rick <span>and</span> morty</h1>
                             </div>
                         </Grid>
                     </Grid>
@@ -26,9 +26,8 @@ export function Cabecera() {
     )
 }
 
-
-window.onload = function () {
-    for (let index = 0; index < 120; index++) {
+function ClonarEstrellas(cantidad) {
+    for (let index = 0; index < cantidad; index++) {
 
         let x = Math.floor(Math.random() * 100);
         let y = Math.floor(Math.random() * 100);
@@ -38,8 +37,17 @@ window.onload = function () {
         clon.style.left = y+"%"
         clon.style.zIndex = "0"
         document.body.appendChild(clon);
-    
-     
+    }
+}
+
+
+window.onload = function () {
+    if (screen.width >= 1000) {
+        ClonarEstrellas(110);
+        console.log(screen.width);
+    }else if (screen.width < 1000) {
+        ClonarEstrellas(70);
+        console.log(screen.width)
     }
    
 }

@@ -41,6 +41,9 @@
     -webkit-text-stroke: 0.01px #aac76d;
     z-index: 5;
 }
+.titulo span{
+    font-size: calc(0.5em + 0.5vw);
+}
 
 .punto{
     position: absolute;
