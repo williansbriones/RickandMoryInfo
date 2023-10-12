@@ -26,6 +26,7 @@
     max-width: 100%;
     width: 13vh;
     z-index: 11;
+    user-select: none;
 }
 
 .titulo-box{
@@ -35,10 +36,11 @@
     transform: translate(-50%, -50%);
     font-size:calc(0.8em + 0.8vw);
     z-index: 11;
+    user-select: none;
 }
 
 .titulo{
-    -webkit-text-stroke: 0.01px #aac76d;
+    -webkit-text-stroke: 0.01px #7CF74F;
     z-index: 5;
 }
 .titulo span{

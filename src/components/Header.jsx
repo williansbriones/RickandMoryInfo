@@ -1,4 +1,4 @@
-import './app.css'
+import './Header.css'
 import {Box, Grid} from '@material-ui/core'
 import logo from '../images/logo.png'
 
@@ -6,7 +6,7 @@ export function Cabecera() {
     return(
         <Grid container>
             <Grid item xs={12}>
-                <header  className="Cabecera">
+                <header id='marco'  className="Cabecera">
                     <span id='estrella' className='punto'></span>
                     <Grid container>
                         <Grid item xs={2}>
@@ -27,16 +27,17 @@ export function Cabecera() {
 }
 
 function ClonarEstrellas(cantidad) {
+    var c = document.getElementById("estrella").cloneNode(true);
+    let ubicacion = document.getElementById("marco");
     for (let index = 0; index < cantidad; index++) {
 
         let x = Math.floor(Math.random() * 100);
         let y = Math.floor(Math.random() * 100);
-        var c = document.getElementById("estrella");
         var clon = c.cloneNode(true);
         clon.style.top = x+"px";
         clon.style.left = y+"%"
         clon.style.zIndex = "0"
-        document.body.appendChild(clon);
+        ubicacion.appendChild(clon);
     }
 }
 
@@ -48,8 +49,9 @@ window.onload = function () {
     }else if (screen.width < 1000) {
         ClonarEstrellas(70);
         console.log(screen.width)
+    }else{
+        ClonarEstrellas(60);
     }
-   
 }
 
   
