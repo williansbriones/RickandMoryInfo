@@ -1,0 +1,16 @@
+.Tarjeta-contenedor{
+    height: 300px;
+    width: 250px;
+    background: #ebe480;
+    border: 2px #6b7132 solid;
+
+    flex-grow: 1;
+    flex-basis: 250px;
+}
+
+.imagen{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 40%;
+    border: #6b7132 1px solid;
+}

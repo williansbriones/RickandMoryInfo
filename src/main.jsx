@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Cabecera } from './components/Header'
 import { Buscador } from './components/Buscador'
-import {Box, Grid} from '@material-ui/core';
+import { Tarjeta } from './components/Tarjeta'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
@@ -15,5 +15,11 @@ root.render(
     <div className='buscador'>
       <Buscador/>
     </div>
+    <main>
+      <Tarjeta/>
+      <Tarjeta/>
+      <Tarjeta/>
+      <Tarjeta/>
+    </main>
   </React.Fragment>
 )

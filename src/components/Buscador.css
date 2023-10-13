@@ -6,7 +6,7 @@
 .box-buscador{
     width: 50%;
     height: 40px;
-    border: #ebe480 3px solid;
+    border: #6b7132 3px solid;
     border-radius: 3px;
     display: flex;
     background: #ebe480;
@@ -30,11 +30,11 @@
 
 #lista-buscador{
     left: 26.5%;
-    margin-top: 20px;
+    margin-top: 23px;
     position: absolute;
     width: 46.5%;
-    height: 300px;
-    border: #ebe480 2px solid;
+    height: 400px; /*Cambiar la altura de la lista en el buscador de los personajes*/
+    border: #6b7132 2px solid;
     background: #ebe480;
     display: none;
 }
