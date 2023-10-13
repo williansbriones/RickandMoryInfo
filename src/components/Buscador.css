@@ -6,9 +6,10 @@
 .box-buscador{
     width: 50%;
     height: 40px;
-    border: blanchedalmond 3px solid;
+    border: #ebe480 3px solid;
     border-radius: 3px;
     display: flex;
+    background: #ebe480;
 }
 .box-buscador input{
     padding-left: 20px;
@@ -19,11 +20,13 @@
     outline: none;
     font-family: 'Buscador';
     font-size: large;
-    color: blanchedalmond;
+    color: #043c6e;
 }
 .box-buscador img{
     width: 40px;
 }
+.box-buscador input::-webkit-input-placeholder{color: #043c6e;}
+
 
 #lista-buscador{
     left: 26.5%;
@@ -31,8 +34,8 @@
     position: absolute;
     width: 46.5%;
     height: 300px;
-    border: white 2px solid;
-    background: white;
+    border: #ebe480 2px solid;
+    background: #ebe480;
     display: none;
 }
 
