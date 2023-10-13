@@ -27,6 +27,7 @@
     width: 13vh;
     z-index: 11;
     user-select: none;
+    border-radius: 50px;
 }
 
 .titulo-box{
