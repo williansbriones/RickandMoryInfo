@@ -9,13 +9,3 @@ body{
     justify-content: center;
     align-items: center;
 }
-main{
-    width: auto;
-    margin-top: 40px;
-    margin-left: 25px;
-    margin-right: 25px;
-
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;;
-}

@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Cabecera } from './components/Header'
 import { Buscador } from './components/Buscador'
-import { Tarjeta } from './components/Tarjeta'
+import { TarjetasContainer } from './components/TarjetasContainer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
@@ -15,11 +15,6 @@ root.render(
     <div className='buscador'>
       <Buscador/>
     </div>
-    <main>
-      <Tarjeta/>
-      <Tarjeta/>
-      <Tarjeta/>
-      <Tarjeta/>
-    </main>
+    <TarjetasContainer/>
   </React.Fragment>
 )

@@ -1,16 +1,27 @@
 .Tarjeta-contenedor{
-    height: 300px;
+    height: 200px;
     width: 250px;
     background: #ebe480;
     border: 2px #6b7132 solid;
-
+    display: flex;
     flex-grow: 1;
     flex-basis: 250px;
+    font-family: 'Buscador';
 }
 
 .imagen{
     margin-top: 20px;
     margin-left: 10px;
-    height: 40%;
+    height: 70%;
     border: #6b7132 1px solid;
+}
+.text-container{
+    margin-top: 30px;
+    margin-left: 10px;
+    display:flexbox;
+}
+
+.texto{
+    margin-bottom: 5px;
+    font-size: 12px;
 }
