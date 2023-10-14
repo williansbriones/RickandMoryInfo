@@ -7,7 +7,8 @@ WORKDIR /web
 COPY . .
 
 
-RUN npm install
+RUN npm install -f
+
 
 
 CMD [ "npm", "run", "dev" ]
