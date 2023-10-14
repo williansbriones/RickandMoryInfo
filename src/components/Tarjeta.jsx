@@ -1,5 +1,5 @@
 import './Tarjeta.css'
-
+ 
 
 export function Tarjeta({nombre, status, especie, gender, imagen, location}){
     return(
